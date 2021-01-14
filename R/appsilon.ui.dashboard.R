@@ -16,9 +16,9 @@ appsilon.ui.dashboard <- function(){
                      ' - ',
                      day(vesseldates$max),'/',month(vesseldates$max)
                      ),
-                        icon = icon("fa fa-history"), color = "yellow"),
-      infoBox("Ships", ships, icon = icon("fa fa-ship"), color = "purple"),
-      infoBox("Main Destination", dest$DESTINATION, icon = icon("fa fa-map-marked-alt"), color = "olive")
+                        icon = icon("history"), color = "yellow"),
+      infoBox("Ships", ships, icon = icon("ship"), color = "purple"),
+      infoBox("Main Destination", dest$DESTINATION, icon = icon("map-marked-alt"), color = "olive")
     )
   )
 }

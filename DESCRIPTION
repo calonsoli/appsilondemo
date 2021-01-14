@@ -1,0 +1,15 @@
+Package: AppsilonDemo
+Type: Package
+Title: Appsilon demo.
+Version: 0.0.1
+Date: 2020-06-24
+Author: Carlos Alonso de Linaje 
+Maintainer: Carlos Alonso de Linaje <carlos@alonsodelinaje.com>
+Description: A skills demostration
+License: Copyright Carlos Alonso de Linaje
+Depends: shiny, shinydashboard, dashboardthemes, shinyWidgets, dplyr, lubridate, geosphere, leaflet
+ByteCompile: TRUE
+
+    
+    
+    
